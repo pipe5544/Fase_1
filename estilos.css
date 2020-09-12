@@ -76,7 +76,7 @@ thead{
 	border-bottom: solid 6px;
 }
 tr:nth-child(even){
-	background-color:  rgba(44, 105, 38, 0.1);
+	background-color:  rgba(217, 255, 253);
 }
 tr:hover td{
 	background: rgba(0, 0, 0, 0.3);
