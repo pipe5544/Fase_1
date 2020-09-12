@@ -1,0 +1,837 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Preesaberes</title>
+	 <meta name="keywords" content="Etiquetas html, estilos csss">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+<body>
+	<div class="padre">
+		<header class="header">
+			<h1>Preesaberes</h1>
+			<div class="datos-personales">
+				
+				<div class="datos">
+					<ul><h2>Datos personales</h2>
+					<li>Nombre: Jhoan Jaime Zambrano</li>
+					<li>Cedula: 1,095,793,579</li>
+					<li>Facultad: Ingenieria en sistemas</li>
+					<li>Grupo: 301127_24 </li>
+					<li>Correo electronico:jjzambranoe@unadvirtual.edu.co </li>
+					</ul>
+				</div>
+	
+		</header>
+		<section class="section">
+			<h2>Tabla de etiqueta principales de HTML</h2>
+
+			<table>
+				<!--fila de encabezado de la tabla-->
+				<thead>
+				<tr>
+					<th>Etiqueta</th><th>descripccion</th>
+				</tr>
+				</thead>
+				<!--1er fila de la tabla-->
+				<tr>
+					<td>DOCTYPE</td>
+					<td>Esta linea indica el tipo de documento, para un documento html5
+					se utiliza la linea<!DOCTYPE html> </td>
+				</tr>
+				<!--2da fila de la tabla-->
+				<tr>
+					<td>html lang =""</td>
+					<td>Inicia el documento html, ademas define el lenguaje de la maquina ejemplo "es", representa el 
+					idioma español, "in" representa el idioma ingles</td>
+				</tr>
+				<!--3er fila-->
+				<tr>
+					<td>meta</td>
+					<td>Estas etiquetas pueden describir el contenido de un sitio web con precisión,
+					este elemento te permite transmitir metadatos estructurados a través de la página web
+					<br>Atributos válidos
+					<ul>
+						<li>name</li>
+						<li>content</li>
+						<li>http-equiv</li>
+						<li>scheme </li>
+					</ul>
+					</td>
+				</tr>
+				<!--4t fila-->
+				<tr>
+					<td>header</td>
+					<td>Esta etiqueta se utiliza para marcar la cabecera o encabezado de un sitio web, donde se destaca el logo,
+					imagenes, cuadros de busqueda etc, </td>
+				</tr>
+				<!--5ta fila-->
+				<tr>
+					<td>nav</td>
+					<td>Esta etiqueta representa la sección de enlaces de navegación del sitio web,permitiendo enlazar 
+					una pagina con otra. Los enlaces son denominadas anclas </td>
+				</tr>
+				<!--6ta fila-->
+				<tr>
+					<td>section</td>
+					<td>Repreta la agrupacion tematica del sitio web, se destaca el contenido de la página, puede contener su 
+					propio encabezado, ademas se puede dividir en varias secciones, como articulos, informacion,
+					noticias etc relacionadas con el sitio web</td>
+				</tr>
+				<!--7ma fila-->
+				<tr>
+					<td>aside</td>
+					<td>Esta etiqueta se utiliza para representar una nota, un concejo, una explicación, especialmente para 
+					para espacios publicitarios, o contenidos que se concideran separados al contenido principal de la página,
+					esta area a menudo es son representados como barras laterales</td>
+				</tr>
+				<!--8ba fila-->
+				<tr>
+					<td>article</td>
+					<td>Representa una composición auto-contenida en un documento, página, una aplicación o en el sitio, que se destina a distribuir de forma independiente o reutilizable, en un blog, revista, periodico etc.</td>
+				</tr>
+				<!--9va fila-->
+				<tr>
+					<td>body</td>
+					<td>Define el cuerpo del documento HTML, como la parrte central del sitio, es la parte donde se describe
+					el contenido la página web, su estructura, su forma, sus colores, textos, etc.</td>
+				</tr>
+				<!--10ma fila-->
+				<tr>
+					<td>head</td>
+					<td>Representa la cabeza del sitio web, es la parte donde se incluye la información acerca del documento
+					a mayoría de esta información no la muestra el navegador al usuario, provee información general (metadatos) acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos.</td>
+				</tr>
+				<!--11 fila-->
+				<tr>
+					<td>footer</td>
+					<td>Indica el pie de página del sitio we, donde se destaca información reelvante como derechos de autor
+					información del sitio, documentos relacionados etc.</td>
+				</tr>
+			</table><br><br><br>
+
+			<!--estilos css-->
+			<h2>Estilos CSS</h2>
+			<table>
+				<!--fila de encabezado de la tabla-->
+				<tr>
+					<th class="titulo">CSS-Colors</th>				
+				<td>Los colores se especifican utilizando nombres de color predefinidos o valores RGB, HEX, HSL, RGBA, HSLA.</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>CSS Color Names</th>
+					<td>En CSS, se puede especificar un color utilizando un nombre de color, encontramos  140 nombres de colores estándar
+						<ul>Ejemplo:
+							<li>black</li>
+							<li>blue</li>
+							<li>tomato</li>
+							<li>gray</li>
+						</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Valor CSS RGB</th>
+					<td>En CSS, un color se puede especificar como un valor RGB, usando esta fórmula:
+					<br><b>rgb (rojo, verde, azul) se la intensidad del color entre 0 y 255.</b>
+					<ul>Ejemplo:
+					<li>rgb (0,0,0) rpresenta el color negro</li>
+					<li>rgb(255,255,255) representa el color blanco</li>
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Valor CSS HEX</th>
+					<td>En CSS, se puede especificar un color usando un valor hexadecimal en la forma:
+					<br><b>#rrggbb</b>
+					<br>Donde rr (rojo), gg (verde) y bb (azul) son valores hexadecimales entre 00 y ff (igual que el decimal 0-255).
+					<ul>Ejemplo:
+					<li>#00ff00 representa el color verde</li>
+					<li>#00000 representa el color negro</li>
+					<li>#fffff representa el color blanco</li>
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Valor HSL</th>
+					<td>En CSS, se puede especificar un color usando tono, saturación y luminosidad (HSL) en la forma:
+					<br><b>hsl (tono, saturación, luminosidad)</b>
+					<br>Donde tono va de o a 255, saturación va de forma porcentual %, y iluminación  va de forma porcentual %.
+					<ul>Ejemplo
+						<li>hsl(64, 100%, 50%) representa el color amarillo</li>
+						<li>hsl(0, 48%, 35%) representa el color vinotinto</li>
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Valor RGBA</th>
+					<td>En CSS, Los valores de color RGBA son una extensión de los valores de color RGB con un canal alfa, que especifica la opacidad de un color de la forma:
+					<br><b>rgba (rojo, verde, azul, alfa)</b>
+					<br>El parámetro alfa es un número entre 0.0 (totalmente transparente) y 1.0 (no transparente en absoluto)
+					<ul>Ejemplo
+						<li>rgba(117, 255, 71, 0.5) representa el color verde clarito</li>
+						<li>rgba(0, 255, 255, 0.5) representa el color azul clarito</li>
+					</ul>
+					</td>
+				</tr>
+				<!--fila de encabezado -->
+				<tr>
+					<th class="titulo">CSS-background</th>				
+				<td>Las propiedades de background CSS se utilizan para definir los efectos de fondo para los elementos.</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>CSS background-color</th>
+					<td>La propiedad  background-color especifica el color de fondo de un elemento.
+					<br>Se especifica con mayor frecuencia el color de fondo  por:
+					<ul>
+						<li>Un nombre de color válido</li>
+						<li>un valor HEX </li>
+						<li>Un valor RGB</li>
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>CSS background-image</th>
+					<td>La propiedad background-image especifica una imagen para usar como fondo de un elemento,
+					por defecto, la imagen se repite para que cubra todo el elemento.					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>CSS background-position</th>
+					<td>La propiedad background-position se usa para especificar la posición de la imagen de fondo.					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>CSS background-attachment</th>
+					<td>La propiedad background-attachment  especifica si la imagen de fondo debe desplazarse o ser fija.			
+					</td>
+				</tr>
+				<!--fila de encabezado -->
+				<tr>
+					<th class="titulo">CSS-Borders</th>				
+				<td>Las propiedades CSS borderle permite especificar el estilo, el ancho y el color del borde de un elemento.</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>CSS Border Width</th>
+					<td>La propiedad border-width especifica el ancho de los cuatro bordes,se puede establecer un tamaño específico px, pt, cm, em, etc, va representado como las manecillas del relog iniciando desde el borde superior, el borde derecho, el borde inferior y el borde izquierdo.										
+					<ul>Ejemplo
+						<li>border-width: 5px 15px 14px 20px;</li>						
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>CSS Border -Lados individuales</th>
+					<td>En CSS, también hay propiedades para especificar cada uno de los bordes superior, derecho, inferior e izquierdo, (top, right, bottom, and left)
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>CSS Border – propiedad abreviada</th>
+					<td>Es posible especificar todas las propiedades de borde individuales en una propiedad.
+					<ul>Ejemplo
+						<li>border:  3px  solid  black;</li>						
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Borde izquierdo (Border -Left)</th>
+					<td>Es posible especificar un borde al costado izquierdo con la propiedad border-left
+					<ul>Ejemplo
+						<li>border-left: 3px solid black;</li>						
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Borde inferior (Border -Bottom)</th>
+					<td>Es posible especificar un borde inferior con la propiedad border-bottom
+					<ul>Ejemplo
+						<li>border-bottom:  3px  solid red;</li>						
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Bordes redondeados (border-radius)</th>
+					<td>Es posible especificar un borde redondeado con la propiedad border-radius
+					<ul>Ejemplo
+						<li>border-radius: 3px;</li>						
+					</ul>
+					</td>
+				</tr>
+			<!--fila de encabezado de la tabla-->
+				<tr>
+					<th class="titulo">CSS Margins</th>				
+				<td>La propiedad CSS margin  se usan para crear espacio alrededor de elementos, fuera de cualquier borde definido,
+				existen propiedades para establecer el margen para cada lado de un elemento tanto arriba, derecha, abajo e izquierda, ( top, right, bottom, and left)</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Margin – lados individuales</th>
+					<td>CSS tiene propiedades para especificar el margen para cada lado de un elemento:
+					<ul>
+						<li>margin-top  arriba</li>						
+						<li>margin-right  derecha</li>
+						<li>margin-bottom abajo</li>
+						<li>margin-left  izquierda</li>
+					</ul>
+					<br>Todas las propiedades de margen pueden tener los siguientes valores:
+					<ul>
+						<li>%: especifica un margen en% del ancho del elemento contenedor</li>
+						<li>auto: el navegador calcula el margen</li>
+						<li>Inherit: especifica que el margen debe heredarse del elemento padre.</li>
+						<li>length: especifica un margen en px, pt, cm, etc.</li>
+					</ul>
+					<ul>Ejemplo margenes individuales
+						<li>margin-top: 10px;</li>						
+						<li>margin-bottom: 5px;</li>
+						<li>margin-right: 50px;</li>
+						<li>margin-left: 70px;</li>
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Margin – propiedad abreviada</th>
+					<td>Para acortar el código, es posible especificar todas las propiedades de margen en una propiedad.
+					<ul>Ejemplo agrupando el ejemplo anterior
+						<li>margin: 10px 5px 50px 70px;</li>						
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Margin auto</th>
+					<td>La propiedad de margen en automático para centrar horizontalmente el elemento dentro de su contenedor. 
+					<ul>Ejemplo
+						<li>margin: auto;</li>						
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>El valor inherit (heredado)</th>
+					<td>Es posible que una clase hijo herede la margen de una clase padre
+					<ul>Ejemplo
+						<li>margin-left: inherit;</li>						
+					</ul>
+					</td>
+				</tr>
+				<!--fila de encabezado de la tabla-->
+				<tr>
+					<th class="titulo">CSS Padding</th>				
+				<td>La propiedad CSS padding se usan para generar espacio alrededor del contenido de un elemento, dentro de cualquier borde definido, CSS, tienes control total sobre el relleno. Hay propiedades para configurar el relleno para cada lado de un elemento arriba, derecha, abajo e izquierda, (top, right, bottom, and left).</td>
+				</tr>
+				<tr>
+					<th>Pading – lados individuales</th>
+					<td>CSS tiene propiedades para especificar el relleno para cada lado de un elemento:
+					<ul>
+						<li>margin-top  arriba</li>						
+						<li>margin-right  derecha</li>
+						<li>margin-bottom abajo</li>
+						<li>margin-left  izquierda</li>
+					</ul>
+					<br>Todas las propiedades de margen pueden tener los siguientes valores:
+					<ul>
+						<li>%: especifica un margen en% del ancho del elemento contenedor</li>
+						<li>auto: el navegador calcula el margen</li>
+						<li>Inherit: especifica que el margen debe heredarse del elemento padre.</li>
+						<li>length: especifica un margen en px, pt, cm, etc.</li>
+					</ul>
+					<ul>Ejemplo margenes individuales
+						<li>pading-top: 10px;</li>						
+						<li>pading-bottom: 5px;</li>
+						<li>pading-right: 50px;</li>
+						<li>pading-left: 70px;</li>
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Pading – propiedad abreviada</th>
+					<td>Para acortar el código, es posible especificar todas las propiedades de relleno (pading) en una propiedad.
+					<ul>Ejemplo agrupando el ejemplo anterior
+						<li>pading: 10px 5px 50px 70px;</li>						
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Padding (box-sizing)</th>
+					<td>Para mantener un ancho establecido, sin importar la cantidad de relleno, puede usar la propiedad debox-sizing. Esto hace que el elemento mantenga su ancho; Si aumenta el relleno, el espacio de contenido disponible disminuirá.
+					<ul>Ejemplo:
+						<br>  width: 500px;
+						<br> padding: 5px;
+  						<br>box-sizing: border-box												
+					</ul>
+					</td>
+				</tr>
+				<!--fila de encabezado de la tabla-->
+				<tr>
+					<th class="titulo">CSS Text</th>				
+				<td>CSS permite agregar los diferentes estilos para los textos del sitio web</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Text Color</th>
+					<td>La propiedad text-color permite configuar el color de texto para ello podemos utilizar los valores
+					<ul>
+						<li>Un nombre de color</li>
+						<li>Un valor HEX</li>
+						<li>Un valor RGB</li>
+					</ul>
+					<ul>Ejemplo:
+						<li>color: green;</li>						
+						<li>color: #343434;</li>
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Text Alignment</th>
+					<td>La propiedad text-alignment se usa para establecer la alineación horizontal de un texto,
+					un texto puede alinearse a la izquierda o derecha, centrarse o justificarse. 
+
+					<ul>las alineaciones pueden ser:
+						<li>left </li>
+						<li>right</li>
+						<li>center</li>
+						<li>top</li>
+						<li>bottom</li>
+						<li>justify</li>
+					</ul>
+					<ul>Ejemplo:
+						<li>text-align: left;</li>												
+					</ul>
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Text Decoration</th>
+					<td>La propiedad ttext-decoration se usa para establecer o eliminar decoraciones del texto, la propiedad text-decoratio: none; a menudo se usa para eliminar subrayados de enlaces
+					<ul>las decoraciones pueden ser:
+						<li> overline</li>
+						<li>line-through</li>
+						<li>underline</li>						
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Text Transformation</th>
+					<td>La propiedad text-transform se usa para convertir todo en letras mayúsculas o minúsculas, o poner en mayúscula la primera letra de cada palabra.
+					<ul>Ejemplo:
+						<li> text-transform: uppercase; letras mayusculas</li>
+						<li>text-transform: lowercase;  letras minusculas</li>											
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Text Indentation</th>
+					<td>La propiedad text-indent se usa para especificar la sangría de la primera línea de un texto
+					<ul>Ejemplo:
+						<li>text-indent: 10px;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th class="titulo">Letter Spacing</th>
+					<td>La propiedad leter-spacing se usa para especificar el espacio entre los caracteres en un texto
+					<ul>Ejemplo:
+						<li>letter-spacing: 2px;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Line Height</th>
+					<td>La propiedad line-height  se usa para especificar el espacio entre líneas
+					<ul>Ejemplo:
+						<li>line-height: 1px;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Text Direction</th>
+					<td>La propiedad direction  se usa para cambiar la dirección del texto de un elemento					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Word Spacing</th>
+					<td>La propiedad word-spacing se utiliza para especificar el espacio entre las palabras en un texto
+					<ul>Ejemplo:
+						<li>word-spacing: 10px;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Text Shadow</th>
+					<td>La propiedad text-shadow  agrega sombra al texto.
+					<ul>Ejemplo:
+						<li>text-shadow: 2px 4px red;</li>							
+					</ul>					
+					</td>
+				</tr>
+			<!--fila de encabezado de la tabla-->
+				<tr>
+				<th class="titulo">CSS Fonts</th>				
+				<td>Las propiedades de fuente CSS definen la familia de fuentes
+				</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>CSS Font Families</th>
+					<td>En CSS, hay dos tipos de nombres de familias de fuentes:
+					<ul>
+						<li>Generc-family  (familia genérica): un grupo de familias de fuentes con un aspecto similar (como "Serif" o "Monospace")</li>							
+						<li>font family (familia de fuentes): una familia de fuentes específica (como "Times New Roman" o "Arial")</li>
+					</ul>					
+					</td>
+					<!-- fila de la tabla-->
+				<tr>
+					<th>Font Family</th>
+					<td>La propiedad de font-family debe contener varios nombres de fuentes como un sistema "alternativo". Si el navegador no admite la primera fuente, intenta con la siguiente fuente, y así sucesivamente.
+					<ul>Ejemplo:
+						<li>font-family: "Times New Roman", Times, serif;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Font Style</th>
+					<td>La propiedad font-style se usa principalmente para especificar texto en cursiva.
+					<ul>Esta propiedad tiene tres valores:
+						<li>normal : el texto se muestra normalmente</li>							
+						<li>italic: el texto se muestra en cursiva</li>
+						<li>oblique: el texto es "inclinado" (oblicuo es muy similar a cursiva, pero menos compatible)</li>
+					</ul>					
+					<ul>Ejemplo:
+						<li>font-style: normal;</li>													
+					</ul>					
+					</td>				
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Font Size</th>
+					<td>La propiedad font-size establece el tamaño del texto.
+					<ul>Ejemplo:
+						<li>word-spacing: 10px;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Font Size con Pixels</th>
+					<td>Ajustar el tamaño del texto con píxeles le da un control total sobre el tamaño del texto:
+					<ul>Ejemplo:
+						<li>font-size: 16px;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th> Font Size con Em</th>
+					<td>Para permitir a los usuarios cambiar el tamaño del texto
+					<ul>Ejemplo:
+						<li>font-size: 2.5em;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th> Font Weight</th>
+					<td>La propiedad font-weight especifica el peso de una fuente:
+					<ul>Ejemplo:
+						<li>font-weight: normal;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th> Responsive Font Size (Tamaño de fuente sensible)</th>
+					<td>El tamaño del texto se puede establecer con una unidad vw, de esa forma, el tamaño del texto seguirá el tamaño de la ventana del navegador					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th> Font Variant</th>
+					<td>La propiedad font-variant especifica si un texto debe mostrarse o no en letra minúscula, las letras minúsculas se convierten en letras mayúsculas. Sin embargo, las letras mayúsculas convertidas aparecen en un tamaño de fuente más pequeño que las letras mayúsculas originales en el texto.
+					<ul>Ejemplo:
+						<li>font-variant: small-caps;</li>							
+					</ul>					
+					</td>
+				</tr>
+			<!--fila de encabezado de la tabla-->
+				<tr>
+				<th class="titulo">CSS links</th>				
+				<td>Con CSS, los enlaces o anclas de navegación se pueden diseñar de diferentes maneras.
+				</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th> Styling Links (enlaces de estilo)</th>
+					<td>Los enlaces pueden tener un estilo diferente según el estado en que se encuentren.
+					<ul>En CSS existen  cuatro estados de enlaces son:
+						<li>a:link: un enlace normal, no visitado</li>							
+						<li>a:visited: un enlace que el usuario ha visitado</li>
+						<li>a: hover: un enlace cuando el usuario pasa el mouse sobre él</li>
+						<li>a:active: un enlace en el momento en que se hace clic</li>
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th> Botones de enlace (Link Buttons )</th>
+					<td>Con  CSS se pueden modificar los estilos de los enlaces para visualizarlos de forma de botones.
+					</td>
+				</tr>
+			<!--fila de encabezado de la tabla-->
+				<tr>
+				<th>CSS Lists</th>				
+				<td>En HTML, hay dos tipos principales de listas: 
+				<br>listas desordenadas (ul): los elementos de la lista están marcados con viñetas
+				<br>
+				<ul>Ejemplo:
+					<li>Camilo</li>
+					<li>Brayan</li>
+					<li>JUan</li>
+				<br>listas ordenadas (ol): los elementos de la lista están marcados con números o letras 
+				<ul>Ejemplo:
+					<ol>1 Camilo</ol>
+					<ol>2 Brayan</ol>
+					<ol>3 Juan</ol>
+				</ul>									
+				</td>									
+				</tr>
+			<!--fila de encabezado de la tabla-->
+				<tr>
+				<th class="titulo">CSS Tables</th>				
+				<td>Las propiedades de fuente CSS definen la familia de fuentes
+				</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th> Table Borders</th>
+					<td>Para especificar los bordes de la tabla en CSS, use la propiedad de border.
+					<ul>Ejemplo:
+						<li>border: 1px solid black;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th> border-collapse (Contraer bordes de tabla)</th>
+					<td>La propiedad border-collapse establece si los bordes de la tabla se deben contraer en un solo borde:
+					<ul>Ejemplo:
+						<li>border-collapse: collapse;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th> Table Width and Height</th>
+					<td>El ancho y el alto de una tabla están definidos por las propiedades width y height
+					<ul>Ejemplo:
+						<li>width: 100%;<br>height: 50px;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Alineamiento Horizontal (text-align)</th>
+					<td>La propiedad text-align establece la alineación horizontal, como izquierda, derecha o centro, (like left, right, or center)  del contenido en th o td.
+					<ul>Ejemplo:
+						<li>text-align: left;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Alineamiento vertical (vertical-align)</th>
+					<td>La propiedad vertical-align establece la alineación vertical, como arriba, abajo o en el medio del contenido en th o td.
+					<ul>Ejemplo:
+						<li>vertical-align: top;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Table Padding</th>
+					<td>Para controlar el espacio entre el borde y el contenido de una tabla, use la propiedad de pading en los elementos td y th
+					<ul>Ejemplo:
+						<li>padding: 10px;<br>text-align: center;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Divisores horizontales</th>
+					<td>La propiedad border-bottom se puede agregar  a th y td para divisores horizontales:th o td.
+					<ul>Ejemplo:
+						<li>border-bottom: 1px solid #fff;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Hoverable Table</th>
+					<td>la propiedad :hover en trse usa  para resaltar las filas de la tabla al pasar el mouse:
+					<ul>Ejemplo:
+						<li>tr:hover {background-color: #343434;}</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Tablas a rayas</th>
+					<td>El selector nth-child () permite  agregue un background-color a todas las filas de tablas pares (o impares)
+					<ul>Ejemplo:
+						<li>tr:nth-child(even) {background-color: #343434;}</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Table Color</th>
+					<td>Especifica el color de fondo y el color del texto de los elementos th
+					<ul>Ejemplo:
+						<li>th {background-color: #343434;}</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Responsive Table</th>
+					<td>Una tabla responsive mostrará una barra de desplazamiento horizontal si la pantalla es demasiado pequeña para mostrar el contenido completo.
+					<ul>Ejemplo:
+						<li>th {background-color: #343434;}</li>							
+					</ul>					
+					</td>
+				</tr>
+			<!--fila de encabezado de la tabla-->
+				<tr>
+				<th class="titulo">CSS position Propiedad</th>				
+				<td>La propiedad position especifica el tipo de método de posicionamiento utilizado para un elemento estático, relativo, fijo, absoluto o fijo. (static, relative, fixed, absolute or sticky).
+					<ul>Hay cinco valores de posición diferentes:
+						<li>static</li>							
+						<li>relative</li>
+						<li>fixed</li>
+						<li>absolute</li>
+						<li>sticky</li>
+					</ul>					
+				</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>Elementos superpuestos</th>
+					<td>Una tabla responsive mCuando los elementos se colocan, pueden superponerse a otros elementos,				La propiedad z-index especifica el orden de apilamiento de un elemento (qué elemento debe colocarse delante o detrás de los demás),	mostrará una barra de desplazamiento horizontal si la pantalla es demasiado pequeña para mostrar el contenido completo.					
+					</td>
+				</tr>
+			<!--fila de encabezado de la tabla-->
+				<tr>
+					<th class="titulo">CSS Layout - Overflow</th>				
+				<td>La propiedad CSS overflow  controla lo que sucede con el contenido que es demasiado grande para caber en un área, especifica si se debe recortar el contenido o agregar barras de desplazamiento cuando el contenido de un elemento es demasiado grande para caber en el área especificada.					
+				</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>overflow: visible</th>
+					<td>Por defecto, el overflow es visible, lo que significa que no está recortado y se representa fuera del cuadro del elemento.
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>overflow: hidden</th>
+					<td>Con el valor oculto, se recorta el desbordamiento y se oculta el resto del contenido.					
+					<ul>Ejemplo:
+						<li>overflow: hidden;</li>							
+					</td>
+					</ul>					
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>overflow: scroll</th>
+					<td>Al establecer el valor para desplazarse, el overflow se recorta y se agrega una barra de desplazamiento para desplazarse dentro del cuadro. Tenga en cuenta que esto agregará una barra de desplazamiento tanto horizontal como verticalmente (incluso si no la necesita)					
+					<ul>Ejemplo:
+						<li>overflow: scroll;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>overflow: auto</th>
+					<td>El valor automático es similar al desplazamiento, pero agrega barras de desplazamiento solo cuando es necesario.					
+					<ul>Ejemplo:
+						<li>overflow: auto;</li>							
+					</ul>	
+					</td>				
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th>overflow-x and overflow-y</th>
+					<td>Las propiedades overflow-x y overflow-y especifican si se cambia el desbordamiento de contenido solo horizontal o verticalmente (o ambos).
+					<ul>
+						<li>overflow-x especifica qué hacer con los bordes izquierdo / derecho del contenido.</li>
+						<li>overflow-y especifica qué hacer con los bordes superior / inferior del contenido.</li>					
+					</ul>										
+					<ul>Ejemplo:
+						<li>overflow-x: hidden;</li>
+						<li>overflow-y: scroll;</li>							
+					</ul>					
+					</td>
+				</tr>
+				<!-- fila de la tabla-->
+				<tr>
+					<th class="titulo">CSS  - float and clear</th>
+					<td>La propiedad float CSS especifica cómo debe flotar un elemento.
+						<ul>
+							<li>La propiedad float se usa para posicionar y formatear contenido, e.g. deje que una imagen flote a la izquierda del texto en un contenedor.
+							</li>
+							<li>La propiedad clear CSS especifica qué elementos pueden flotar junto al elemento borrado y de qué lado.
+							</li>
+						</ul>
+					<ul><b>La propiedad flotante puede tener uno de los siguientes valores:</b>
+						<li>left: el elemento flota a la izquierda de su contenedor</li>							
+						<li>right: el elemento flota a la derecha de su contenedor</li>
+						<li>none: el elemento no flota (se mostrará justo donde aparece en el texto). Esto es por defecto</li>
+						<li>heredar: el elemento hereda el valor flotante de su padre</li>
+					</ul>
+					<ul>La propiedad clear especifica qué elementos pueden flotar al lado del elemento borrado y de qué lado.
+						<br><b>La propiedad clear puede tener uno de los siguientes valores:</b>
+						<li>none: permite elementos flotantes en ambos lados. Esto es por defecto</li>							
+						<li>right- No se permiten elementos flotantes en el lado derecho</li>
+						<li>left: no se permiten elementos flotantes en el lado izquierdo</li>
+						<li>both: no se permiten elementos flotantes ni en el lado izquierdo ni en el derecho</li>
+						<li>inherit: El elemento hereda el valor claro de su padre</li>
+					</ul>	
+					</td>				
+				</tr>
+
+			</table>
+		</section>
+		<footer>
+			<a href="https://www.unad.edu.co/">https://www.unad.edu.co/</a>			
+			<h5>Todos los derechos de autor: Jhoan Jaime Zambrano</h5>
+			<h5>Ultima modificación: 1 de Septiembre del 2020</h5>
+		</footer>
+	</div>
+</body>
+</html>
