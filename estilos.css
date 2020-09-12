@@ -1,5 +1,5 @@
 .header{
-	background: url(imagenes/0.jpg);
+	background: url(imagenes/html1.jpg);
 	background-position: left;
 	background-attachment: contain;
 	background-size: cover;
@@ -24,7 +24,7 @@ nav a{
 	
 }
 nav a:hover{
-	color: rgba(0, 255, 255, 0.5 );
+	color: rgba(0, 255, 255 );
 }
 body{
 	font-family: "Arial"
